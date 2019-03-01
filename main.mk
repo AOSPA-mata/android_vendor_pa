@@ -155,3 +155,11 @@ else
 # include definitions for SDCLANG
 include vendor/pa/sdclang/sdclang.mk
 endif
+
+GAPPS_VARIANT := nano
+GAPPS_FORCE_WEBVIEW_OVERRIDES := true
+GAPPS_FORCE_MMS_OVERRIDES := true
+GAPPS_FORCE_DIALER_OVERRIDES := true
+GAPPS_FORCE_BROWSER_OVERRIDES := true
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
