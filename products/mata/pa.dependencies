@@ -31,7 +31,7 @@
   },
   {
     "remote":       "aospa",
-    "repository":   "AOSPA/android_hardware_qcom_audio",
+    "repository":   "AOSPA-mata/android_hardware_qcom_audio",
     "target_path":  "hardware/qcom/audio",
     "revision":     "pie-8998"
   },
